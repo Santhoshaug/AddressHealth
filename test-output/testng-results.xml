@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T17:25:53Z" name="Suite" finished-at="2022-12-23T17:27:32Z" duration-ms="99040">
+    <groups>
+      <group name="Login">
+        <method signature="CreateCovidAllFieldsTest.createComplaint(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidAllFieldsTest@73cd37c0]" name="createComplaint" class="com.zysk.addresshealth.tests.CreateCovidAllFieldsTest"/>
+        <method signature="CreateCovidComplaintTest.createComplaint(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidComplaintTest@416c58f5]" name="createComplaint" class="com.zysk.addresshealth.tests.CreateCovidComplaintTest"/>
+        <method signature="CreateCovidOtherFieldsTest.createComplaint(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest@5505ae1a]" name="createComplaint" class="com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2022-12-23T17:25:53Z" name="Test" finished-at="2022-12-23T17:27:32Z" duration-ms="99040">
+      <class name="com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest@5505ae1a]" started-at="2022-12-23T17:26:25Z" name="launchApplication" finished-at="2022-12-23T17:26:34Z" duration-ms="8519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createComplaint(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest@5505ae1a]" started-at="2022-12-23T17:26:34Z" name="createComplaint" data-provider="getData" finished-at="2022-12-23T17:26:56Z" duration-ms="21964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test1234, phoneNumber=7019290364}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComplaint -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest@5505ae1a]" started-at="2022-12-23T17:26:56Z" name="tearDown" finished-at="2022-12-23T17:26:56Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zysk.addresshealth.tests.CreateCovidOtherFieldsTest -->
+      <class name="com.zysk.addresshealth.tests.CreateCovidComplaintTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidComplaintTest@416c58f5]" started-at="2022-12-23T17:25:53Z" name="launchApplication" finished-at="2022-12-23T17:26:04Z" duration-ms="10196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createComplaint(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidComplaintTest@416c58f5]" started-at="2022-12-23T17:26:04Z" name="createComplaint" data-provider="getData" finished-at="2022-12-23T17:26:25Z" duration-ms="21155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test1234, phoneNumber=7019290364}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComplaint -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidComplaintTest@416c58f5]" started-at="2022-12-23T17:26:25Z" name="tearDown" finished-at="2022-12-23T17:26:25Z" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zysk.addresshealth.tests.CreateCovidComplaintTest -->
+      <class name="com.zysk.addresshealth.tests.CreateCovidAllFieldsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidAllFieldsTest@73cd37c0]" started-at="2022-12-23T17:26:56Z" name="launchApplication" finished-at="2022-12-23T17:27:02Z" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createComplaint(java.util.HashMap)[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidAllFieldsTest@73cd37c0]" started-at="2022-12-23T17:27:02Z" name="createComplaint" data-provider="getData" finished-at="2022-12-23T17:27:31Z" duration-ms="29510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test1234, phoneNumber=7019290364}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComplaint -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zysk.addresshealth.tests.CreateCovidAllFieldsTest@73cd37c0]" started-at="2022-12-23T17:27:31Z" name="tearDown" finished-at="2022-12-23T17:27:32Z" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zysk.addresshealth.tests.CreateCovidAllFieldsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
